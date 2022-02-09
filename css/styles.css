@@ -1,0 +1,188 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.bg-pink{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.bg-white{
+  background-color: #fff;
+}
+
+/* Title Section */
+#title {
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.title-h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#phone-image {
+  width: 55%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+.phone-box {
+  position: relative;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.slogan {
+  padding: 4% 0;
+}
+
+/* Navbar Section */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* Features Section */
+#features {
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-h3 {
+  font-weight: 700;
+}
+
+.feature-p {
+  color: #8f8f8f;
+  font-size: 1.2rem;
+}
+
+/* Testimonials Section */
+
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 7% 10%;
+}
+
+.pricing-h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.pricing-p {
+  color: #8f8f8f;
+  font-size: 1.2rem;
+  padding-bottom: 3%;
+}
+
+.card-h3 {
+  font-weight: 700;
+  margin: 0.6rem 0;
+}
+
+.card-h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+/* Call to Action Section */
+#cta {
+  padding: 7% 20%;
+}
+
+.cta-h3 {
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+.cta-download {
+  font-weight: 400;
+}
+
+/* Footer Section */
+#footer {
+  padding: 4% 15%;
+}
+
+.footer-icons {
+  padding: 0 1% 1% 0;
+}
+
+/* Media Query Section */
+@media (max-width: 990px) {
+  #phone-image {
+    position: static;
+    transform: rotate(0);
+    padding-top: 3%;
+  }
+
+  .home {
+    text-align: center;
+  }
+}
